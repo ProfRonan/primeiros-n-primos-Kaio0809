@@ -7,8 +7,8 @@ while primo < n:
     while(x < prox_primo):
         if prox_primo % x == 0:
             break
-        x = x + 2
+        x += 2
     if x == prox_primo:
         print(x)
-        primo = primo + 1
-    prox_primo = prox_primo + 2
+        primo += 1
+    prox_primo += 2
